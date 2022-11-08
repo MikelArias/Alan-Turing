@@ -1,6 +1,6 @@
 @font-face {
 
-    src:url(alan\ letra\ .ttf);
+    src:url(../Fuentes/alan\ letra\ .ttf);
     font-family:alan;
 }
 div{
@@ -15,7 +15,7 @@ body, html {
     height: 100%;
 }
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Header.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Imagenes/Header.jpg");
   height: 65%;
   background-position: center;
   background-repeat: no-repeat;
@@ -48,7 +48,6 @@ header {
 section {
     display: -webkit-flex;
     display: flex;
-    flex-direction: ;
   }
 nav {
     -webkit-flex: 1;
@@ -59,7 +58,7 @@ nav {
     font-size: 150%;
   }
 nav ul {
-    list-style-type: none;
+    list-style-type: disc;
     padding: 50;
   }
   article {
