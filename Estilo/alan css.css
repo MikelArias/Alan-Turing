@@ -1,0 +1,137 @@
+/* Fuente usada*/
+@font-face {
+    src:url(../Fuentes/alan\ letra\ .ttf);
+    font-family:alan;
+}
+/* Body*/
+body, html {
+    height: 100%;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #383734;
+}
+/* Hero Text y Imagen*/
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Imagenes/Header.jpg");
+  height: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: sticky;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* Header*/ 
+header {
+    background-color: #0f1009;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 40px;
+  }
+
+/*Footer*/
+footer {
+    background-color: rgb(255, 249, 249);
+    padding: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  footer{
+    font-size: 70%;
+    background-color: #f1f1f1;
+  }
+
+ /*Media Query*/
+@media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+  @media screen and (min-width:300px) and (max-width:800px) {
+    body{font-size:0.8em;}
+    sidebar{display:none;}
+    }
+      .top-navigation {
+        left: 10%;
+      }
+      .top-navigation > a {
+        padding: 5px 5px;
+      }
+ /*Barra de navegación*/
+ .top-navigation {
+          position: absolute;
+          top: 5%;
+          right: 2%;
+        }
+ .top-navigation a {
+          color: #f2f2f2;
+          text-align: left;
+          padding: 12px 12px;
+          text-decoration: none;
+          font-size: 18px;
+        }
+
+/* Textos*/
+     enunciado{
+          font-family:alan;
+          font-size: 100%;
+        }
+          h2{
+            font-size: 200%;
+            font-family: alan;
+          }
+          li{
+            font-family: alan;
+        
+          }
+          article{
+            font-family: alan;
+          }
+          h3{
+            font-size: 200%;
+            font-family: alan;
+          }
+          he{
+            font-size: 100%;
+            font-family:alan;
+            }
+            titulo{
+            font-size: 200%;
+            font-family:alan;
+            }
+            p{
+              font-family:alan;
+              font-size: 200%;
+            }
+            h4{
+                font-family:alan;
+                font-size: 200%;  
+            }
+            div{
+              font-size: 200%;
+              font-family: alan;
+          }
+          h9{
+          font-family:alan;
+          font-size: 200%;
+          }
