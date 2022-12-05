@@ -36,6 +36,7 @@ header {
     font-size: 35px;
     color: white;
   }
+/* Section y article*/
 section {
     display: -webkit-flex;
     display: flex;
